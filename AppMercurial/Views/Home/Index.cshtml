@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="author" content="ThemePixels">
+
+    <title>Mercurial</title>
+
+    @Styles.Render("~/Content/fortawesome")
+    @Styles.Render("~/Content/ionicons")
+    @Styles.Render("~/Content/bracket")
+
+    <!-- vendor css
+    <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bracket.css"> -->
+</head>
+
+<body>
+   
+    <div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v">
+
+        <div class="login-wrapper wd-300 wd-xs-350 pd-25 pd-xs-40 bg-white rounded shadow-base">
+            <div>
+                <img style="height: 100%;
+    width: 100%;" src="https://images.squarespace-cdn.com/content/5c79879b65a7074459923db4/1551899701493-N575FRWS89SFXCON2O9D/logo-completo.png?format=1500w&content-type=image%2Fpng">
+            </div>
+            <br><br>
+
+            <div class="form-group" style="">
+                <input type="text" class="form-control" placeholder="Ingresa tu usuario">
+            </div><!-- form-group -->
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Ingresa tu password">
+                <a href="" style="color: #FF7F07;" class="tx-info tx-12 d-block mg-t-10">Recuperar password?</a>
+            </div><!-- form-group -->
+            <button type="submit" style="background-color: #FF7F07;
+    border-color: #FF7F07;" class="btn btn-info btn-block">
+                Ingresar
+            </button>
+
+            <div style="" class="mg-t-60 tx-center">No estas registrado? <a href="" style="color: #FF7F07;" class="tx-info">Registrate</a></div>
+        </div><!-- login-wrapper -->
+    </div><!-- d-flex -->
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery-ui")
+    @Scripts.Render("~/bundles/bootstrap")
+    <!--Html
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery-ui/ui/widgets/datepicker.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+
+</body>
+</html>
