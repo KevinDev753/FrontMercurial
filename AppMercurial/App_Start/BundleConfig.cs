@@ -39,7 +39,7 @@ namespace AppMercurial
                      "~/Content/fortawesome/all.min.css"));
 
             bundles.Add(new StyleBundle("~/Content/ionicons").Include(
-                     "~/Content/ionicons/ionicons.min.css"));
+                     "~/Content/ionicons/css/ionicons.min.css"));
 
 
             bundles.Add(new StyleBundle("~/Content/bracket").Include(
