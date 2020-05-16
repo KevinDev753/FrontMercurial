@@ -41,9 +41,11 @@ namespace AppMercurial
             bundles.Add(new StyleBundle("~/Content/ionicons").Include(
                      "~/Content/ionicons/css/ionicons.min.css"));
 
-
             bundles.Add(new StyleBundle("~/Content/bracket").Include(
                      "~/Content/bracket.css"));
+
+            bundles.Add(new StyleBundle("~/Content/Shared").Include(
+                     "~/Content/Views/Shared/style.css"));
 
 
             #endregion

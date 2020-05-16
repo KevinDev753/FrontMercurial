@@ -738,6 +738,10 @@
     <Content Include="Content\ionicons\png\512\woman.png" />
     <Content Include="Content\ionicons\png\512\wrench.png" />
     <Content Include="Content\ionicons\png\512\xbox.png" />
+    <Content Include="Content\Views\Shared\style.css" />
+    <Content Include="Content\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\webfonts\fa-solid-900.svg" />
     <Content Include="Scripts\bracket\bracket.js" />
     <Content Include="Scripts\moment\ender.js" />
     <Content Include="Scripts\moment\locale\af.js" />
@@ -887,14 +891,15 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Main.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Common\" />
     <Folder Include="Content\ionicons\less\" />
     <Folder Include="Content\ionicons\scss\" />
+    <Folder Include="Content\Views\Home\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -905,6 +910,18 @@
     <Content Include="Content\ionicons\fonts\ionicons.eot" />
     <Content Include="Content\ionicons\fonts\ionicons.ttf" />
     <Content Include="Content\ionicons\fonts\ionicons.woff" />
+    <Content Include="Content\webfonts\fa-brands-400.eot" />
+    <Content Include="Content\webfonts\fa-brands-400.ttf" />
+    <Content Include="Content\webfonts\fa-brands-400.woff" />
+    <Content Include="Content\webfonts\fa-brands-400.woff2" />
+    <Content Include="Content\webfonts\fa-regular-400.eot" />
+    <Content Include="Content\webfonts\fa-regular-400.ttf" />
+    <Content Include="Content\webfonts\fa-regular-400.woff" />
+    <Content Include="Content\webfonts\fa-regular-400.woff2" />
+    <Content Include="Content\webfonts\fa-solid-900.eot" />
+    <Content Include="Content\webfonts\fa-solid-900.ttf" />
+    <Content Include="Content\webfonts\fa-solid-900.woff" />
+    <Content Include="Content\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
     <Content Include="Scripts\peity\LICENCE" />
   </ItemGroup>

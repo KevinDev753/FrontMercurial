@@ -1,0 +1,17 @@
+﻿.AjustImage {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    .AjustImage div {
+        width: 90px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .AjustImage img {
+        width: 100%;
+        height: auto;
+    }
